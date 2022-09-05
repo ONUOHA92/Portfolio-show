@@ -14,6 +14,8 @@ export const Banner = () => {
   const toRotate = ["Frontend Developer", "Web Designer", "Mobile Developer", 'Full stack Developer'];
   const period = 2000;
 
+  console.log(index)
+
   useEffect(() => {
     let ticker = setInterval(() => {
       tick();
